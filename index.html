@@ -14,46 +14,68 @@
 
         
     </style>
+
 </head>
 <body>
-    <div id="a" class="h-screen text-white ">
+    <div id="a" class="md:h-screen text-white ">
         <header class="flex justify-between ">
-            <div class="text-red-600 text-4xl font-extrabold">
-                <span class="ml-[155px]">NETFLIX</h1></span></div>
+            <div class="text-red-600 text-2xl md:text-4xl font-extrabold">
+                <span class="ml-[5px] md:ml-[155px]">NETFLIX</h1></span></div>
                 <div class="flex">
         <span class="border mt-[10px] mx-[15px] p-[5px]">English <i class="fa-solid fa-caret-down" style="color: #f1f1f1;"></i></span>
-        <span class="border border-red-600 rounded bg-red-600 mt-[10px] mr-[155px] p-[5px]">Sign In</span>
+        <span class="border border-red-600 rounded bg-red-600 mt-[10px] mr-[5px] md:mr-[155px] p-[5px]">Sign In</span>
                                 </div>
         
         </header>
         
-<div class="flex flex-col mt-[280px]  ">
-    
+<div class="flex flex-col justify-center mt-[100px] lg:mt-[280px]  "> 
+        <div class="flex justify-center md:hidden">Welcome back!</div>
+        <div class="">
+        <span class="flex justify-center font-medium text-2xl md:text-4xl md:mt-[120px] lg:text-5xl lg:mt-[0px] font-extrabold xl:text-6xl ">Unlimited movies, TV shows and more</span></div>
+    <div class="flex justify-center mt-[15px]"><span class="text-lg md:text-3xl xl:text-4xl">Watch anywhere.Cancel anytime.</span></div>
+    <div class="hidden md:flex justify-center mt-[15px]"><span class="text-xl xl:text-2xl">Ready to watch? Enter your email to create or restart your membership.</span></div>
     <div class="flex justify-center">
-    <span class="text-5xl font-extrabold">Unlimited movies, TV shows and more</span></div>
-    <div class="flex justify-center mt-[15px]"><span class="text-3xl">Watch anywhere.Cancel anytime.</span></div>
-    <div class="flex justify-center mt-[15px]"><span class="text-xl">Ready to watch? Enter your email to create or restart your membership.</span></div>
-<div class="flex justify-center text-lg mt-[15px] gap-[10px]">
+    <button class="border w-[150px] mb-[100px] border-red-600 rounded bg-red-600 pr-[10px] mx-[80px] py-[10px]  pl-[5px] md:hidden">Finish Sign Up <i class="fa-solid fa-greater-than" style="color: #fafdfb;"></i></button>
+</div>
+    <div class="hidden md:flex justify-center text-lg mt-[15px] gap-[10px] xl:text-2xl">
     <span class="border bg-black py-[5px] pr-[140px] px-[15px]">Email address</span>
     <span class="border border-red-600 rounded bg-red-600 pr-[10px] pt-[5px] pl-[5px]">Get Started <i class="fa-solid fa-greater-than" style="color: #fafdfb;"></i></span>
 </div>
+</div> </div>
+
+
+<section class="bg-black lg:flex border-y-8 border-gray-800 ">
+    
+    <span class="text-white mt-[100px] lg:my-[300px] xl:ml-[150px] flex flex-col justify-center">
+        <span class="flex justify-center text-3xl font-medium md:text-5xl mb-[20px] md:font-extrabold">Enjoy on your TV</span>
+        <span class="flex justify-center ml-[15px] md:text-2xl lg:ml-[70px]">Watch on smart TVs, PlayStation, Xbox, Chromecast,</span>
+    <span class="flex justify-center md:text-2xl">Apple TV, Blu-ray players and more.</span>
+    </span>
+    
+    
+            <span class="flex justify-center mb-[100px]">
+        <img class="static w-[330px] md:w-[600px] md:h-[450px] lg:h-[350px] lg:w-[480px] lg:mt-[190px] xl:w-[540px] xl:h-[400px]" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png">
+        <video class="absolute w-[234px]   mt-[50px] md:w-[437px] md:ml-[0px] md:mt-[95px] lg:mt-[265px] lg:w-[328px] xl:w-[390px] xl:mt-[270px]" data-uia="nmhp-card-animation-asset-video" autoplay="" playsinline="" muted="" loop=""><source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" type="video/mp4">
+        </video></span>
+    </section>
+    
+    <section class="bg-black py-[100px] md:py-[150px] lg:flex flex-row justify-center border-b-8 border-gray-800">
+        <div class="text-white mt-[100px] lg:hidden">
+            <div class="flex justify-center ml-[20px] text-2xl md:text-4xl ">Download your shows to watch offline</div>
+            <div class="flex justify-center ml-[20px] md:text-2xl">Save your favourites easily and always have something to watch.</div>
+            </div>
+        <div>
+<img class="static w-[100px] md:ml-[110px] lg:ml-[0px] lg:h-[300px] w-[550px]" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg">
+<span class="flex ml-[45px] h-[100px] w-[230px] md:ml-[230px] md:w-[310px] lg:ml-[80px] lg:w-[280px] text-white border rounded xl:w-[380px]">
+<img class="md:h-[95px] w-[100px]" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png">Stranger Things</span>
 </div>
-        
-    </div>
+<div class="max-md:hidden lg:text-white mt-[100px]">
+<div class="lg:w-[550px] text-5xl font-extrabold leading-normal">Download your shows to watch offline</div>
+<div class="text-2xl w-[590px] mt-[10px]">Save your favourites easily and always have something to watch.</div>
+</div>
+    </section>
 
 
-    <div class="bg-black flex">
-<span class="text-white my-[300px] ml-[150px] flex flex-col justify-center">
-    <span class="text-5xl mb-[20px] font-extrabold">Enjoy on your TV</span>
-    <span class="text-2xl">Watch on smart TVs, PlayStation, Xbox, Chromecast,</span>
-<span class="text-2xl">Apple TV, Blu-ray players and more.</span>
-</span>
 
-
-        <span class="flex">
-    <img class="static h-[450px] mt-[150px]" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png">
-    <video class="absolute w-[437px] ml-[80px] mt-[245px]" data-uia="nmhp-card-animation-asset-video" autoplay="" playsinline="" muted="" loop=""><source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" type="video/mp4">
-    </video></span>
-    </div>
-    </body>
+</body>
 </html>
